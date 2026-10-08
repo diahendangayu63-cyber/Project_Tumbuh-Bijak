@@ -1,16 +1,37 @@
-# React + Vite
+# Tumbuh Bijak - Sistem Edukasi Kesehatan Pubertas Remaja
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Nama Mahasiswa:** Diah Endang Ayu
+**NIM:** 43240364
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 1. Nama dan Tujuan Proyek
+- **Nama Proyek:** Tumbuh Bijak
+- **Tujuan Proyek:** Menyediakan platform edukasi berbasis web yang interaktif, tervalidasi, dan aman bagi remaja untuk mempelajari kesehatan reproduksi serta perubahan masa pubertas. Proyek ini bertujuan menghilangkan rasa tabu melalui pendekatan gamifikasi kuis dan desain *Soft-Minimalism* yang ramah.
 
-## React Compiler
+## 2. Sasaran Pengguna
+- **Remaja (Usia 11–17 Tahun):** Pengguna utama yang membutuhkan informasi kesehatan yang valid dan tidak membosankan.
+- **Guru Bimbingan Konseling (BK) & Pendidik:** Menggunakan platform sebagai media peraga interaktif di sekolah.
+- **Orang Tua / Wali:** Menggunakan platform sebagai referensi diskusi terkait masa pubertas anak di rumah.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 3. Daftar Halaman dan Fitur
+- **Halaman Beranda (Lobi Kuis):** Menampilkan menu utama dengan tata letak bergaya *Bento Box* yang bersih.
+- **Halaman Modul Bacaan:** Berisi ringkasan materi interaktif terkait kesehatan pubertas.
+- **Fitur 5 Mode Kuis Interaktif:**
+  1. Kuis Pilihan Ganda.
+  2. Kuis Benar/Salah (Dilengkapi *Timer* waktu mundur 15 detik).
+  3. Kuis Tebak-Tebakan Teks (Validasi dinamis *non case-sensitive*).
+  4. Kuis Skenario Kasus.
+- **Fitur Animasi Umpan Balik (Feedback):** Menampilkan animasi *confetti* untuk jawaban yang benar dan efek getar (*shake*) untuk jawaban yang salah.
 
-## Expanding the Oxlint configuration
+## 4. Tautan Penting
+- **Tautan Figma:** [https://www.figma.com/design/3hBQ7qKuyGtpdt4EI7YRlm/Untitled?node-id=0-1&t=szUQAx2PFQscxP5q-1]
+- **Tautan Video YouTube / Google Drive:** [https://drive.google.com/drive/folders/1xPGLaBBUFiu12DTS2fpHnokEqx9WAdCK?usp=drive_link] [https://youtu.be/s7RAEsbrB9k?si=XJ4VUrMZBTYi_zu9]
+- **Tautan Web Live Preview (Vercel):** [https://project-tumbuh-bijak.vercel.app]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 5. Cara Menjalankan Halaman Web (Lokal)
+Jika ingin menjalankan kode web ini secara lokal di komputer, ikuti langkah berikut:
+1. Pastikan **Node.js** sudah terinstal.
+2. Buka terminal (CMD/PowerShell) dan masuk ke dalam folder kode:
+   ```bash
+   cd source-code
